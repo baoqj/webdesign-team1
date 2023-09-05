@@ -80,7 +80,9 @@ nav {
 }
 
 .slogan h1 {
-    color: #bb7b1b;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style : italic;
+    color      : #bb7b1b;
 }
 
 
@@ -103,7 +105,7 @@ nav {
 }
 
 .slogan .summary {
-    padding-top  : 30px;
+    padding-top  : 10px;
     padding-right: 20px;
 }
 
@@ -131,7 +133,7 @@ nav {
 }
 
 .content-1 .summary {
-    padding-top  : 30px;
+    padding-top  : 10px;
     padding-left : 20px;
     padding-right: 20px;
 }
@@ -170,13 +172,22 @@ nav {
 }
 
 .gallery header {
-    padding: 20px 0px 30px 50px;
+    padding: 50px 0px 30px 50px;
 }
 
 .gallery .container {
     max-width: 1100px;
     padding  : 0px;
 }
+
+
+
+
+.gallery h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style : italic;
+}
+
 
 
 .gallery img {
@@ -231,6 +242,10 @@ nav {
     padding-top  : 30px;
     padding-left : 20px;
     padding-right: 20px;
+}
+
+.story .summary p {
+    padding-top: 10px;
 }
 
 footer {

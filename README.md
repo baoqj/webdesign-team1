@@ -4,7 +4,7 @@ Website Design Team1 Project
 
 The project is deployed on Page github.io
 
-[https://baoqj.github.io/webdesign-team1/index.html]: https://baoqj.github.io/webdesign-team1/index.html
+[https://baoqj.github.io/webdesign-team1/index.html](https://baoqj.github.io/webdesign-team1/index.html)
 
 ### Team Members:
 

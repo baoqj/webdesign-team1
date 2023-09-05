@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.about {
+  padding: 100px;
+  text-align: center;
+  background-color: rgb(106, 64, 146);
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.brand {
+  display: flex; /* Use flexbox for layout */
+  background-color: #fefefc;
+  padding: 30px;
+}
+
+.content-section {
+  flex: 2; /* Take up available space */
+  padding: 20px;
+}
+
+.content-section h3 {
+  margin-bottom: 10px;
+}
+
+.content-section p {
+  margin-bottom: 10px;
+}
+
+.image-section {
+  flex: 1; /* Take up available space */
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Center vertically */
+  padding: 20px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.vision {
+  background-color: rgb(145, 121, 173, 0.7);
+  padding: 100px;
+  text-align: center;
+}
+
+.vision p {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.team {
+  background-color: rgb(145, 121, 173, 0.7);
+  padding: 50px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto; /* To center the row horizontally */
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.container {
+  padding: 0 14px 14px 14px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: white;
+}
+
+.value {
+  background-color: #fefefc;
+  padding: 50px;
+  text-align: center;
+}
+
+.value-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto; /* To center the row horizontally */
+}
+
+.value-column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.value-card {
+  margin: 8px;
+}
+
+.value img {
+  border-radius: 10%;
+}
+
+.value-container {
+  padding: 15px;
+}
+
+.value-content {
+  color: grey;
+}
+
+.value-container::after,
+.value-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (max-width: 768px) {
+  .content-section,
+  .image-section {
+    text-align: center; /* Center align on smaller screens */
+  }
+
+  .brand {
+    flex-direction: column;
+  }
+
+  .image-section img {
+    max-width: 100%; /* Ensure images don't exceed the screen width */
+  }
+
+  .value-row {
+    flex-direction: column; /* Stack value cards vertically on smaller screens */
+  }
+
+  .value-column {
+    width: 100%; /* Full width for value columns on smaller screens */
+    margin: 10px 0; /* Adjust margins for spacing */
+  }
+
+  .value-card {
+    text-align: center; /* Center value cards on smaller screens */
+  }
+
+  .value-card img {
+    max-width: 100%; /* Ensure value card images don't exceed the screen width */
+  }
+
+  .row {
+    flex-direction: column; /* Stack value cards vertically on smaller screens */
+  }
+
+  .column {
+    width: 100%; /* Full width for value columns on smaller screens */
+    margin: 10px 0; /* Adjust margins for spacing */
+  }
+
+  .card {
+    text-align: center; /* Center value cards on smaller screens */
+  }
+
+  .card img {
+    max-width: 100%; /* Ensure value card images don't exceed the screen width */
+  }
+}

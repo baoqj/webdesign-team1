@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact {
+  padding: 100px;
+  text-align: center;
+  background-color: rgb(106, 64, 146);
+  color: white;
+}
+
+.location-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 10px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.OpeningHour {
+  margin: 20px;
+}
+
+.Location {
+  max-width: 600px;
+  width: 80%;
+  margin: 20px;
+}
+
+.Contact {
+  max-width: 600px;
+  width: 80%;
+  margin: 20px;
+}
+
+.value {
+  background-color: rgb(145, 121, 173, 0.7);
+  padding: 50px;
+  text-align: center;
+}
+
+.value-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto; /* To center the row horizontally */
+}
+
+.value-column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.value-card {
+  margin: 8px;
+}
+
+.value-container {
+  padding: 15px;
+}
+
+.value-container h3 {
+  font-size: 20px;
+}
+
+.value-content {
+  color: white;
+}
+
+.value-container::after,
+.value-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (max-width: 768px) {
+  .location-container,
+  .contact-container {
+    padding: 20px; /* Add some spacing on smaller screens */
+  }
+
+  /* Adjust iframe width for smaller screens */
+  .Location iframe {
+    width: 100%;
+  }
+
+  /* Center align text in value cards on smaller screens */
+  .value-card {
+    text-align: center;
+  }
+
+  .value-row {
+    flex-direction: column; /* Stack value cards vertically on smaller screens */
+  }
+
+  .value-column {
+    width: 100%; /* Full width for value columns on smaller screens */
+    margin: 10px 0; /* Adjust margins for spacing */
+  }
+
+  .value-card {
+    text-align: center; /* Center value cards on smaller screens */
+  }
+}

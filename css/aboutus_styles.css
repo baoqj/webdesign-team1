@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
 
 * {
-  margin     : 0px;
-  padding    : 0px;
-  box-sizing : border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
 h2 {
-  font-size     : 30px;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
@@ -17,9 +17,9 @@ h3 {
 }
 
 .brand {
-  display         : flex;
+  display: flex;
   background-color: #f5f1fa;
-  padding         : 100px 150px;
+  padding: 50px 150px;
 }
 
 .brand h2,
@@ -28,7 +28,7 @@ p {
 }
 
 .content-section {
-  flex   : 2;
+  flex: 2;
   padding: 20px;
 }
 
@@ -37,23 +37,23 @@ p {
 }
 
 .image-section {
-  flex           : 1;
-  display        : flex;
+  flex: 1;
+  display: flex;
   justify-content: flex-end;
-  align-items    : center;
-  padding        : 20px;
+  align-items: center;
+  padding: 20px;
 }
 
 .image-section img {
-  max-width    : 100%;
-  height       : auto;
+  max-width: 275px;
+  height: auto;
   border-radius: 50%;
 }
 
 .vision {
   background-color: #e8dcf5;
-  padding         : 100px;
-  text-align      : center;
+  padding: 50px;
+  text-align: center;
 }
 
 .vision h2 {
@@ -61,16 +61,16 @@ p {
 }
 
 .vision p {
-  font-size  : 40px;
+  font-size: 35px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-style : italic;
-  color      : #bb7b1b;
+  font-style: italic;
+  color: #bb7b1b;
 }
 
 .team {
   background-color: #e8dcf5;
-  padding         : 100px;
-  text-align      : center;
+  padding: 50px;
+  text-align: center;
 }
 
 .team h2 {
@@ -78,23 +78,23 @@ p {
 }
 
 .team .row {
-  display        : flex;
-  flex-wrap      : wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  max-width      : 800px;
-  margin         : 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .team .column {
-  float        : left;
-  width        : 33.3%;
+  float: left;
+  width: 33.3%;
   margin-bottom: 16px;
-  padding      : 0 8px;
+  padding: 0 8px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin    : 8px;
+  margin: 8px;
 }
 
 .team-container {
@@ -104,7 +104,7 @@ p {
 .team-container::after,
 .row::after {
   content: "";
-  clear  : both;
+  clear: both;
   display: table;
 }
 
@@ -114,9 +114,9 @@ p {
 
 .value {
   background-color: #f5f1fa;
-  padding         : 100px;
-  padding-bottom  : 50px;
-  text-align      : center;
+  padding: 60px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .value h2 {
@@ -124,18 +124,18 @@ p {
 }
 
 .value-row {
-  display        : flex;
-  flex-wrap      : wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  max-width      : 1000px;
-  margin         : 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .value-column {
-  float        : left;
-  width        : 25%;
+  float: left;
+  width: 25%;
   margin-bottom: 16px;
-  padding      : 0 8px;
+  padding: 0 8px;
 }
 
 .value-card {
@@ -157,12 +157,11 @@ p {
 .value-container::after,
 .value-row::after {
   content: "";
-  clear  : both;
+  clear: both;
   display: table;
 }
 
 @media (max-width: 768px) {
-
   .content-section,
   .image-section {
     text-align: center;
@@ -181,7 +180,7 @@ p {
   }
 
   .value-column {
-    width : 100%;
+    width: 100%;
     margin: 10px 0;
   }
 
@@ -198,7 +197,7 @@ p {
   }
 
   .column {
-    width : 100%;
+    width: 100%;
     margin: 10px 0;
   }
 

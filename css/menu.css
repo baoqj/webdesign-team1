@@ -4,115 +4,107 @@
  * Correct `block` display not defined for `main` in IE 11.
  */
 
- article,
- aside,
- details,
- figcaption,
- figure,
- footer,
- header,
- hgroup,
- main,
- nav,
- section,
- summary {
-   display: block;
- }
- 
- * {
-    margin : 0px;
-    padding: 0px;
+article,
+aside,
+details,
+figcaption,
+figure,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
 }
 
- .summary {
-    padding-top  : 30px;
-    padding-left : 20px;
-    padding-right: 20px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
- .newarrival {
-    padding-top        : 56px;
-    background-color: #f5f1fa;
-    color           : #67418a;
-    padding         : 0 auto;
+.summary {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-
+.newarrival {
+  padding-top: 56px;
+  background-color: #f5f1fa;
+  color: #67418a;
+  padding: 0 auto;
+}
 
 .newarrival .container {
-    max-width: 1200px;
-    padding  : 30px;
-    margin   : 0 auto;
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
 }
 
-
 .newarrival img {
-    max-height   : 300px;
-    border-radius: 8px;
-    margin-right : 40px;
-    margin-top   : 20px;
-    margin-bottom: 20px;
+  max-height: 300px;
+  border-radius: 8px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .detail {
-    padding-top        : 56px;
-    background-color: #f5f1fa;
-    color           : #67418a;
-    padding         : 0 auto;
+  padding-top: 56px;
+  background-color: #e8dcf5;
+  color: #67418a;
+  padding: 0 auto;
 }
-
-
 
 .detail .container {
-    max-width: 1200px;
-    padding  : 30px;
-    margin   : 0 auto;
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
 }
-
 
 .detail img {
-    max-height   : 250px;
-    border-radius: 8px;
-    margin-right : 40px;
-    margin-top   : 20px;
-    margin-bottom: 20px;
-    float        : left;
-}
+  max-height: 250px;
+  border-radius: 8px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
 }
 
 .detail .container .box {
-    max-width: 600px;
-    padding  : 0px;
-    margin   : 0 auto;
+  max-width: 600px;
+  padding: 0px;
+  margin: 0 auto;
 }
-
-
 
 .detail .summary {
-    padding-top  : 30px;
-    padding-right: 20px;
+  padding-top: 30px;
+  padding-right: 20px;
 }
 
-
- .milktea {
-    text-align: center;
+.milktea {
+  text-align: center;
 }
 
 .milktea .btn {
-    background   : transparent;
-    border       : 1px solid #694091;
-    border-radius: 0px;
-    color        : #694091;
-    margin-top   : 20px;
-    margin-bottom: 30px;
-    padding      : 8px 40px;
-    transition   : all 0.3s;
-    border-radius: 5px;
+  background: transparent;
+  border: 1px solid #694091;
+  border-radius: 0px;
+  color: #694091;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 8px 40px;
+  transition: all 0.3s;
+  border-radius: 5px;
 }
 
 .milktea .btn:hover {
-    background: #694091;
-    color     : #ffffff;
-
+  background: #694091;
+  color: #ffffff;
 }
 
+h3 {
+  font-size: 25px;
+  color: #bb7b1b;
+}
